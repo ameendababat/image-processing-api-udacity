@@ -1,0 +1,9 @@
+{
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    // ameen ahmad dababat
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ]
+}

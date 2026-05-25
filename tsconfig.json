@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+
+        // Environment Settings
+        "module": "commonjs",
+        "target": "esnext",
+        "types": ["jasmine"],
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowJs": true,
+    // "moduleResolution": "node16",
+    "esModuleInterop": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    
+
+    // Recommended Options
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+   "include": ["src", "src/tests"],             /* Include all TypeScript files in the root directory .ts files */
+   "exclude": ["node_modules", "dist"]  /* Exclude the node_modules and dist directories */
+}
